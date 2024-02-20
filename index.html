@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="./assets/styles/app.css" />
+  </head>
+  <body>
+    <header class="header"><p>Reza.Shirali | Product Page</p></header>
+    <main class="main">
+      <div class="search">
+        <label for="search__input">Product Name :</label>
+        <input type="text" placeholder="Search Name" id="search__input" />
+        <div class="search__button">
+          <button class="filter selected" data-filter="all">All</button>
+          <button class="filter" data-filter="tech">Tech</button>
+          <button class="filter" data-filter="clothing">Clothing</button>
+          <button class="filter" data-filter="health">Health</button>
+        </div>
+        <div class="search__price">
+          <input
+            type="number"
+            placeholder="Search Price"
+            id="search__input-price"
+          />
+          <button class="search__price-button">Search</button>
+        </div>
+      </div>
+      <div class="products">
+        <div class="product__item" data-category="tech" data-price="1499">
+          <img src="./assets/images/iphone.png" alt="iphoneImage" />
+          <p class="product__item-name">Apple iphone 14 pro</p>
+          <span class="product__item-price">$ 1499</span>
+        </div>
+        <div class="product__item" data-category="clothing" data-price="1199">
+          <img src="./assets/images/shoes.png" alt="ShoesImage" />
+          <p class="product__item-name">Running Shoes</p>
+          <span class="product__item-price">$ 1199</span>
+        </div>
+        <div class="product__item" data-category="tech" data-price="399">
+          <img src="./assets/images/watch.png" alt="WatchImage" />
+          <p class="product__item-name">Apple watch</p>
+          <span class="product__item-price">$ 399</span>
+        </div>
+        <div class="product__item" data-category="clothing" data-price="139">
+          <img src="./assets/images/bag.png" alt="bagImage" />
+          <p class="product__item-name">Collage Bag</p>
+          <span class="product__item-price">$ 139</span>
+        </div>
+        <div class="product__item" data-category="clothing" data-price="169">
+          <img src="./assets/images/jacket.png" alt="jacketImage" />
+          <p class="product__item-name">Boy's jacket</p>
+          <span class="product__item-price">$ 169</span>
+        </div>
+        <div class="product__item" data-category="health" data-price="39">
+          <img src="./assets/images/shampoo.png" alt="shampooImage" />
+          <p class="product__item-name">Keratin Hair Care</p>
+          <span class="product__item-price">$ 39</span>
+        </div>
+        <div class="product__item" data-category="tech" data-price="299">
+          <img src="./assets/images/airpods.png" alt="airpodsImage" />
+          <p class="product__item-name">Apple airpods pro</p>
+          <span class="product__item-price">$ 299</span>
+        </div>
+        <div class="product__item" data-category="health" data-price="39">
+          <img src="./assets/images/vitamin.png" alt="vitaminImage" />
+          <p class="product__item-name">VitaminE</p>
+          <span class="product__item-price">$ 39</span>
+        </div>
+        <div class="product__item" data-category="health" data-price="39">
+          <img src="./assets/images/cream.png" alt="creamImage" />
+          <p class="product__item-name">Face Cream</p>
+          <span class="product__item-price">$ 39</span>
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/scripts/app.js"></script>
+  </body>
+</html>
